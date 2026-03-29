@@ -1,6 +1,6 @@
 {
   "name": "slot-data-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript client for the slot.report Slot Data API. Access 5,600+ online slot games with RTP, volatility, max win, features, mechanics and themes.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -38,10 +38,10 @@
   "homepage": "https://slot.report/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slotreport/slot-data-api"
+    "url": "https://github.com/slreport/slot-data-api"
   },
   "bugs": {
-    "url": "https://github.com/slotreport/slot-data-api/issues"
+    "url": "https://github.com/slreport/slot-data-api/issues"
   },
   "devDependencies": {
     "tsup": "^8.0.0",

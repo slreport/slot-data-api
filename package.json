@@ -1,0 +1,53 @@
+{
+  "name": "slot-data-api",
+  "version": "1.0.1",
+  "description": "JavaScript client for the slot.report Slot Data API. Access 5,600+ online slot games with RTP, volatility, max win, features, mechanics and themes.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "slots",
+    "slot-machines",
+    "casino",
+    "gambling",
+    "igaming",
+    "rtp",
+    "volatility",
+    "game-data",
+    "api-client",
+    "pragmatic-play",
+    "hacksaw-gaming",
+    "nolimit-city"
+  ],
+  "author": "slot.report",
+  "license": "MIT",
+  "homepage": "https://slot.report/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slotreport/slot-data-api"
+  },
+  "bugs": {
+    "url": "https://github.com/slotreport/slot-data-api/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,4 @@
+src/
+test.js
+tsconfig.json
+node_modules/
